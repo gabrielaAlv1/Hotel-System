@@ -1,9 +1,19 @@
-
 #include <iostream>
 #include <string>
 #include "Hotel.h"
-#include "Room.h"
-#include "Costumer.h"
+//#include "Room.h"
+//#include "Costumer.h"
+
+/** @file name: SystemHotel.cpp
+*
+* @brief description of file. The admin display and the costumer display
+* 
+* Longer description of file. This file is my main and has the output display for the admin and costumer to use 
+*
+* @author Gabriela Alvarez
+
+* @bug No known bugs.
+*/
 
 using namespace std;
 
@@ -11,10 +21,10 @@ int main()
 {
 	Hotel Gabs;		//CREATING OBJECT OF CLASS HOTEL
 	char ch;
-	cout << endl << "======================================================================================Welcome to Gabby's Hotel!============================================================================================";
+	cout << endl << "=================================================================================Welcome to Gabby's Hotel!============================================================================================";
 	do
 	{		//MENU TO USE AS EITHER ADMIN OR WHEN A CUSTOMER ENTERS
-		cout << endl << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Admin operates first~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
+		cout << endl << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Admin operates first~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
 		cout << endl << "\t\t\t\t\t\t\t\t\t\t\t"
 			"MENU:\n\t\t\t\t\t\t\t\t\t\t\t"
 			"1.Operate as Admin\n\t\t\t\t\t\t\t\t\t\t\t"
@@ -34,8 +44,8 @@ int main()
 			do
 			{
 				//MENU 2 TO USE WHEN A CUSTOMER WANTS TO CHECK IN
-				cout << endl << "*************************************************************************************************************************************************************" << endl;
-				cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Welcome to Gabby's Hotel!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
+				cout << endl << "*********************************************************************************************************************************************************" << endl;
+				cout << "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Welcome to Gabby's Hotel!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" << endl;
 				cout << "\n\t\t\t\t\t\t\t\t\t\t\t"
 					"Menu:\n\t\t\t\t\t\t\t\t\t\t\t"
 					"1.Check Availability of rooms.\n\t\t\t\t\t\t\t\t\t\t\t"
@@ -71,6 +81,7 @@ int main()
 		default:
 			cout << "Invalid Choice." << endl;
 			break;
+			
 		}
 	} while (ch != '3');
 	return 0;

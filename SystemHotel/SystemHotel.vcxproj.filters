@@ -21,10 +21,10 @@
     <ClCompile Include="Costumer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Hotel.cpp">
+    <ClCompile Include="Room.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Room.cpp">
+    <ClCompile Include="Hotel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

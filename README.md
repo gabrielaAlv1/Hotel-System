@@ -12,3 +12,4 @@
 
 <br />LO5. Explain the relationship between object-oriented inheritance (code-sharing and overriding) and subtyping (the idea of a subtype being usable in a context that expects the supertype).
 <br />Object oriented inheritance and subtyping goes hand by hand. Subtyping refers to compatibility of interfaces. Inheritance refers to reuse of implementation.
+<br />LO7. Define and use iterators and other operations on aggregates, including operations that take functions as arguments. 

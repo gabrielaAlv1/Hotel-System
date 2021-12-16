@@ -5,6 +5,8 @@
 <br />/*This project will be a simple hotel System where the user can be an admin or costumer*/
 <br />file:///C:/Users/gabya/source/repos/SystemHotel/SystemHotel/docs/html/pages.html
 
+![Screenshot 2021-12-15 221644](https://user-images.githubusercontent.com/69876801/146301988-fe6e637f-325a-4b19-b06a-7069ae5bff47.gif)
+
 ![Screenshot 2021-11-24 215535](https://user-images.githubusercontent.com/69876801/143371990-b40ce3b3-f611-4dfe-92f0-f21fab845b4f.gif)
 <br />LO4.Compare and contrast the procedural/functional approach and the object-oriented approach
 <br />-Procedural programming is composed of small parts called functions. Object- Oriented is based on objects. 
